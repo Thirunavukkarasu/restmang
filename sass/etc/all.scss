@@ -1,0 +1,21 @@
+/*
+ * This is is imported by virtue of "sass.etc" in "app.json".
+ */
+
+ body{
+ 	background-image: url("restmang.jpg") !important;
+ }
+.app-header{
+	padding : 10px;
+	color   : #fff;
+	background-color: #ECAC55;
+	border-bottom: 3px solid grey !important;
+}
+
+.x-grid-cell-inner.x-grid-cell-inner-treecolumn {    
+	text-align: left !important;
+}  
+
+.fa-cutlery{
+	color: red;
+}
