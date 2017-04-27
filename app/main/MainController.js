@@ -6,11 +6,10 @@ Ext.define('ClassicApp.main.MainController',{
 			masterTabPanel = references.masterTabPanel;
 
 		masterTabPanel.add({
-			title    : record.raw.text,
+			title    : record.data.text,
 			closable : true,
 			items    : [{
-				xtype : 'component',
-				html  : '<h1>Hello World!</h1>'
+				xtype : record.data.view
 			}]
 		});
 

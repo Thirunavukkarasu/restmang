@@ -39,16 +39,34 @@ Ext.define('ClassicApp.main.Main',{
 		}]
 	},
 	buildMenuStore : function(){
-		var store = Ext.create('Ext.data.TreeStore', {
+		var store, menuOptions;
+
+		menuOptions = [{ 
+        	text : 'Manage Orders', 
+        	view : 'rmmanageorders',
+        	leaf : true 
+        },{ 
+        	text : 'Manage Suppliers', 
+        	view : 'rmmanagesuppliers',        	
+        	leaf : true 
+        },{ 
+        	text : 'Manage Chefs', 
+        	view : 'rmmanagechefs',        	
+        	leaf : true 
+        },{ 
+        	text : 'Manage Billing', 
+        	view : 'rmmanagebilling',        	
+        	leaf : true 
+        },{ 
+        	text : 'Manage Sales', 
+        	view : 'rmmanagesales',        	
+        	leaf : true 
+        }];
+
+		store = Ext.create('Ext.data.TreeStore', {
 		    root: {
 		        expanded: true,
-		        children: [
-		            { text: 'Manage Orders', leaf: true },
-		            { text: 'Manage Suppliers', leaf: true },
-		            { text: 'Manage Chefs', leaf: true },
-		            { text: 'Manage Billing', leaf: true },
-		            { text: 'Manage Sales', leaf: true }
-		        ]
+		        children: menuOptions
 		    }
 		});
 
