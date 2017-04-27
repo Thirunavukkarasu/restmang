@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.orders.ManageChefs',{
+Ext.define('RestMang.orders.ManageChefs',{
 	extend : 'Ext.panel.Panel',
 	alias  : 'widget.rmmanagechefs',	
 	initComponent : function(){

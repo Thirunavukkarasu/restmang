@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.main.MainController',{
+Ext.define('RestMang.main.MainController',{
 	extend : 'Ext.app.ViewController',
 	alias  : 'controller.main',
 	onClickTreePanelMenuItem : function(treePanel , record , item , index , e , eOpts){

@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.orders.ManageSales',{
+Ext.define('RestMang.orders.ManageSales',{
 	extend : 'Ext.panel.Panel',
 	alias  : 'widget.rmmanagesales',	
 	initComponent : function(){

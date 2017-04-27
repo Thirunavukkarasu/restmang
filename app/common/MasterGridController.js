@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.common.MasterGridController',{
+Ext.define('RestMang.common.MasterGridController',{
 	extend : 'Ext.app.ViewController',
 	alias  : 'controller.mastergrid',
 	onClickSearch : function(){

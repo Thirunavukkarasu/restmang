@@ -1,8 +1,8 @@
-Ext.define('ClassicApp.orders.ManageOrders',{
+Ext.define('RestMang.orders.ManageOrders',{
 	extend     : 'Ext.panel.Panel',
 	alias      : 'widget.rmmanageorders',
 	requires   : [
-		'ClassicApp.orders.ManageOrdersController'
+		'RestMang.orders.ManageOrdersController'
 	],
 	controller : 'rmmanageorders',
 	initComponent : function(){

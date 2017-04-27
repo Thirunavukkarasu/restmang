@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.main.Header',{
+Ext.define('RestMang.main.Header',{
 	extend : 'Ext.Container',
 	alias  : 'widget.app-header',
 	cls    : 'app-header',

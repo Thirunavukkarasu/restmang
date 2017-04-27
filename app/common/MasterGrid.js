@@ -1,8 +1,8 @@
-Ext.define('ClassicApp.common.MasterGrid',{
+Ext.define('RestMang.common.MasterGrid',{
 	extend   : 'Ext.panel.Panel',
 	alias    : 'widget.mastergrid',
 	requires : [
-		'ClassicApp.common.MasterGridController'
+		'RestMang.common.MasterGridController'
 	],
 	controller : 'mastergrid',
 	initComponent : function(){

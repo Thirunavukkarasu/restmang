@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.login.LoginController',{
+Ext.define('RestMang.login.LoginController',{
 	extend : 'Ext.app.ViewController',
 	alias  : 'controller.login',
 	onClickLogin : function(){

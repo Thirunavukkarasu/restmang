@@ -1,4 +1,4 @@
-Ext.define('ClassicApp.login.Login',{
+Ext.define('RestMang.login.Login',{
 	extend   : 'Ext.Window',
 	alias    : 'widget.login',
 	width    : 350,

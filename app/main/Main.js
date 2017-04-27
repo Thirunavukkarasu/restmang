@@ -1,8 +1,8 @@
-Ext.define('ClassicApp.main.Main',{
+Ext.define('RestMang.main.Main',{
 	extend   : 'Ext.panel.Panel',
 	alias    : 'widget.main',
 	requires : [
-		'ClassicApp.main.MainController'
+		'RestMang.main.MainController'
 	],
 	controller    : 'main',
 	layout        : 'border',

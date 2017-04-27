@@ -2,7 +2,7 @@
     /**
      * The application's namespace.
      */
-    "name": "ClassicApp",
+    "name": "RestMang",
     
     /**
      * The version of the application.
@@ -86,13 +86,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "ClassicApp.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "ClassicApp.view" then
+         * sass/src and sass/var directories. For example, "RestMang.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "RestMang.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "ClassicApp.view.Foo" to "sass/src/ClassicApp/view/Foo.scss".
+         * "RestMang.view.Foo" to "sass/src/RestMang/view/Foo.scss".
          */
-        "namespace": "ClassicApp",
+        "namespace": "RestMang",
 
         /**
          * Generated sass source settings
