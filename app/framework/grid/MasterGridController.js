@@ -14,7 +14,7 @@ Ext.define('RestMang.framework.grid.MasterGridController',{
 
 		Ext.Ajax.request({
 			url     : 'resources/mock/'+grid.gridId+'.json',
-			method  : 'POST',
+			method  : 'GET',
 			scope   : this,
 			success : function(response){
 				decodedResponse = Ext.decode(response.responseText);
