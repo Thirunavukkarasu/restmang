@@ -1,7 +1,7 @@
 Ext.define('RestMang.framework.grid.MasterGridController',{
-	extend : 'Ext.app.ViewController',
-	alias  : 'controller.mastergrid',
-	control :{
+	extend  : 'Ext.app.ViewController',
+	alias   : 'controller.mastergrid',
+	control : {
 		'mastergrid': {
 			'boxready' : 'onBoxReadyMasterGrid'
 		}
@@ -60,6 +60,15 @@ Ext.define('RestMang.framework.grid.MasterGridController',{
 					selectedRecord : selectedRecord
 				}
 			});
+		}
+		else{
+			Ext.toast({
+	            html     : "Inorder to edit you have select a record in the grid!",
+	            closable : false,
+	            align    : 't',
+	            slideInDuration: 400,
+	            minWidth : 400
+	        });			
 		}
 	},
 	onClickDelete : function(){

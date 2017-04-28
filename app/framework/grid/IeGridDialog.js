@@ -6,6 +6,7 @@ Ext.define('RestMang.framework.grid.IeGridDialog',{
 	width      : 500,
 	height     : 400,
 	autoScroll : true,
+	modal      : true,
 	initComponent : function(){
 		var me = this;
 

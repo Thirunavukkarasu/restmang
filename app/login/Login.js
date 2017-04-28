@@ -8,6 +8,8 @@ Ext.define('RestMang.login.Login',{
 	height        : 250,
 	autoShow      : true,
 	closable      : false,	
+	resizable     : false,
+	draggable     : false,
 	title         : 'Welcome to RestMang!',
 	controller    : 'login',
 	initComponent : function(){
