@@ -31,11 +31,9 @@ Ext.define('RestMang.main.Main',{
     			itemclick  : 'onClickTreePanelMenuItem'
     		}
 		},{
-			region      : 'center',
-			items       : [{
-				xtype     : 'tabpanel',
-				reference : 'masterTabPanel' 
-			}]
+			region    : 'center',
+			xtype     : 'tabpanel',
+			reference : 'masterTabPanel' 
 		}]
 	},
 	buildMenuStore : function(){

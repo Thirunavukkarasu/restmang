@@ -1,13 +1,13 @@
 {
-	"gridId"    : "managebillinggrid",
+	"gridId"    : "manageordergrid",
 	"metadata"  : [{ 
-		"text"      : "Name", 
+		"text"      : "Order Id", 
 		"dataIndex" : "name" 
 	},{ 
-		"text"      : "Email", 
+		"text"      : "Order Items", 
 		"dataIndex" : "email"
 	},{ 
-		"text"      : "Phone", 
+		"text"      : "Order PhoneNo", 
 		"dataIndex" : "phone",
 		"flex"      : 1 
 	}],
@@ -15,6 +15,26 @@
         { "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
         { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
         { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
-        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" }
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" },
+  		{ "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
+        { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
+        { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" },
+		{ "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
+        { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
+        { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" },
+  		{ "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
+        { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
+        { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" },
+		{ "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
+        { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
+        { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" },
+  		{ "name": "Lisa", "email": "lisa@simpsons.com", "phone": "555-111-1224" },
+        { "name": "Bart", "email": "bart@simpsons.com", "phone": "555-222-1234" },
+        { "name": "Homer", "email": "homer@simpsons.com", "phone": "555-222-1244" },
+        { "name": "Marge", "email": "marge@simpsons.com", "phone": "555-222-1254" }                                        
     ]
 }

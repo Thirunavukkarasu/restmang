@@ -1,7 +1,12 @@
 Ext.define('RestMang.common.MasterGridController',{
 	extend : 'Ext.app.ViewController',
 	alias  : 'controller.mastergrid',
-	onClickSearch : function(){
+	control :{
+		'mastergrid': {
+			'boxready' : 'onBoxReadyMasterGrid'
+		}
+	},
+	onBoxReadyMasterGrid : function(){
 		var view  = this.getView(),
 			grid  = view.query('gridpanel')[0],
 			decodedResponse, gridStore;
@@ -16,11 +21,11 @@ Ext.define('RestMang.common.MasterGridController',{
 		    		fields : [],
 		    		data   : decodedResponse.data
 				});
-
+				//assign both columns and datastore together dynamically using reconfigure method
 				grid.reconfigure(gridStore,decodedResponse.metadata);
 			},
 			failure : function(response){
-
+				console.log("Failed to load the grid!");
 			}
 		})  
 	}
