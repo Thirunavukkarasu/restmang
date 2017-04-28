@@ -1,6 +1,6 @@
 Ext.define('RestMang.orders.ManageSuppliers',{
-	extend : 'Ext.panel.Panel',
-	alias  : 'widget.rmmanagesuppliers',	
+	extend  : 'Ext.panel.Panel',
+	alias   : 'widget.rmmanagesuppliers',	
 	initComponent : function(){
 		var me = this;
 
@@ -9,7 +9,7 @@ Ext.define('RestMang.orders.ManageSuppliers',{
 	},
 	buildItems : function(){
 		return [{
-			xtype     : 'mastergrid',
+			xtype     : 'mastergrid',		
 			gridId    : 'managesuppliergrid'
 		}]
 	}

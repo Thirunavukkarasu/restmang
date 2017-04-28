@@ -18,9 +18,12 @@ Ext.define('RestMang.main.MainController',{
 				title       : record.data.text,
 				closable    : true,	
 				bodyPadding : 10,	
-				items       : [{
-					xtype   : record.data.view
-				}]
+				xtype       : record.data.view,
+				layout      : {
+					type   : 'vbox',
+					align  : 'stretch',
+					pack   : 'start'
+				}
 			});
 			tabIndex = tabPanel.items.length - 1;
 		}

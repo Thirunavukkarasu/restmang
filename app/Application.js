@@ -13,6 +13,9 @@ Ext.define('RestMang.Application', {
     ],
     
     launch: function () {
+       document.addEventListener('contextmenu', function(event){
+       		event.preventDefault()
+       });
        Ext.widget("login");
     }
 });

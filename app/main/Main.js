@@ -15,7 +15,7 @@ Ext.define('RestMang.main.Main',{
 	buildItems : function(){
 		return [{
 			region      : 'north',
-			width       : 100,
+			width       : 70,
 			xtype       : 'app-header'
 		},{
 			region      : 'west',
@@ -33,6 +33,9 @@ Ext.define('RestMang.main.Main',{
 		},{
 			region    : 'center',
 			xtype     : 'tabpanel',
+    		width     : '100%',
+    		height    : '100%',
+    		layout    : 'fit',			
 			reference : 'masterTabPanel' 
 		}]
 	},

@@ -9,7 +9,7 @@ Ext.application({
     extend: 'RestMang.Application',
 
     requires: [
-        'RestMang.main.Main'
+        'RestMang.*'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class
