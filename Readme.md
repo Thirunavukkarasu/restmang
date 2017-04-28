@@ -14,7 +14,7 @@ Landing page built on top of the classic border layout
 
 Reconfigure metadata(columns) and data(storedata) from service at runtime based on the gridId
 
-![alt tag](https://raw.githubusercontent.com/Thirunavukkarasu/restmang/master/resources/snapshots/mastergrid.png)
+![alt tag](https://raw.githubusercontent.com/Thirunavukkarasu/restmang/master/resources/snapshots/master-grid.png)
 
 
 ## Add to Grid
